@@ -5,7 +5,7 @@
 
 【超ざっくりの処理の流れ】
 ```
-1. slackでtweetのリアクションを押す
+1. slackでリアクションを押す
 2. slackのevent apiのreaction_addedが発火する
 3. lambdaに届く
 　3-1. 再実行のリクエスト化をチェック
