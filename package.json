@@ -1,0 +1,26 @@
+{
+  "name": "post-tweet-from-slack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsuzuki7713/post-tweet-from-slack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsuzuki7713/post-tweet-from-slack/issues"
+  },
+  "homepage": "https://github.com/nsuzuki7713/post-tweet-from-slack#readme",
+  "dependencies": {
+    "@slack/events-api": "^2.2.0",
+    "@slack/web-api": "^5.0.1",
+    "node-emoji": "^1.10.0",
+    "twitter": "^1.7.1"
+  }
+}
